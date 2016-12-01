@@ -1,0 +1,169 @@
+        * {
+    font-family: NS Sans, Segoe UI, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e6e6e9;
+    padding: 0;
+    margin: 0;
+}
+
+article p {
+    font-size: 1em;
+    margin: 0.5em;
+}
+
+article h2 {
+    margin: 0.5em;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    color: #003082
+    padding: 1em;
+}
+
+header {
+    background-color: #ffc917; 
+    display: flex;
+    align-items: baseline;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.icons {
+    margin-left: auto;
+}
+
+nav img {
+    justify-content: flex-end;
+    height: 2em;
+    width: auto;
+}
+
+.logo {
+    height: 2em;
+    width: auto;
+    margin-left: 1em;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leesduur {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.genres label {
+    display: flex;
+    margin: 0.2em;
+    padding: 0.4em;
+    background-color: #0079d3;
+}
+
+.leesduur label {
+    display: flex;
+    margin: 0.2em;
+    padding: 0.4em;
+    background-color: #0079d3;
+}
+
+.leesduur label:hover {
+    transform: scale(1.10);
+}
+
+.genres label:hover {
+    transform: scale(1.10);
+}
+
+/*.hidden {
+    display: none;
+}*/
+
+section {
+    display: flex;
+    background-color: ;
+}
+
+section h1 {
+    display: flex;
+}
+
+article:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-right: 1em;
+    background-color: white;
+}
+
+.filters > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.filters {
+    padding-left: 2%;
+}
+
+section {
+    padding-left: 2%;
+}
+
+/*.article_div{
+    background-color: #ffc917;
+}*/
+
+button {
+    display: flex;
+    align-content: flex-end;
+    background-color: #0079d3;
+    color: white;
+    border: none;
+    padding: .5em;
+    width: 35%
+}
+
+div button {
+    float: right;
+}
+
+
+
+/*mobile*/
+
+@media screen and (max-width: 500px) {
+    section {
+        flex-direction: column;
+    }
+    article {
+        margin-top: 1em;
+    }
+    /*tablet*/
+    @media screen and (max-width: 900px) {
+        section {
+            flex-direction: column;
+        }
+        article {
+            margin-top: 1em;
+        }
