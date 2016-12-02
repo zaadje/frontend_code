@@ -1,0 +1,251 @@
+* {
+    font-family: NS Sans, Segoe UI, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e6e6e9;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-right: 1em;
+    background-color: white;
+}
+
+article p {
+    font-size: 1em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+article figure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.filters p{
+    font-size: 1em;
+    padding: 0.5em;
+    margin-bottom: -2em;
+}
+
+article h2 {
+    margin: 0.5em;
+}
+
+section > h2{
+    display: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    color: #003082
+}
+
+h2 {
+    color: #003082
+    padding: 1em;
+}
+
+h3 {
+    color: #003082
+}
+
+header {
+    background-color: #ffc917; 
+    display: flex;
+    align-items: baseline;
+}
+
+nav {
+    display: flex;
+    width:100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+.icons {
+    margin-left: auto;
+}
+
+nav img {
+    justify-content: flex-end;
+    height: 2em;
+    width: auto;
+}
+
+.logo {
+    height: 2em;
+    width: auto;
+    margin-left: 1em;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leesduur {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.genres label {
+    display: flex;
+    margin: 0.2em;
+    padding: 0.4em;
+    background-color: #0079d3;
+}
+
+.leesduur label {
+    display: flex;
+    margin: 0.2em;
+    padding: 0.4em;
+    background-color: #0079d3;
+}
+
+.leesduur label:hover {
+    transform: scale(1.10);
+}
+
+.genres label:hover {
+    transform: scale(1.10);
+}
+/*
+.hidden {
+    display: none;
+}
+*/
+section {
+    display: flex;
+    background-color: ;
+    padding-left: 2%;
+}
+
+section h1 {
+    display: flex;
+}
+
+article:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.filters > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.filters {
+    padding-left: 2%;
+}
+
+/*.article_div{
+    background-color: #ffc917;
+}*/
+
+button {
+    display: flex;
+    align-content: flex-end;
+    background-color: #0079d3;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    width: 35%;
+}
+
+div button {
+    display: flex;
+    float: right;    
+}
+
+div button:hover{
+    background-color: #ffc917;
+    color: #003082;
+}
+
+/*aanmeldpagina*/
+
+main {
+    margin-right: 35%; 
+    margin-left: 35%;
+}
+
+.aanmelden {
+    display: flex;
+    flex-basis: 300%;
+    flex-direction: column;
+    background-color: #ffc917;
+
+}
+
+legend{
+    margin-bottom: 0.5em;
+}
+
+fieldset {
+    border: none;
+}
+
+.textfield {
+    display: flex;
+    width: 50%;
+    border: none;
+    margin-top: 0.3em;
+}
+
+.inloggen_button {
+    background-color: #0079d3;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    width: 6em;
+    margin-top: 0.5em;
+}
+
+/*media query*/
+
+@media (max-width: 31em) {
+
+section {
+    flex-direction: column;
+}
+
+article {
+    margin-top: 1em;
+}
+
+article p {
+    padding: 1.5em;
+    }
+
+/*aanmeldpagina*/
+    
+main {
+    margin-right: 5%; 
+    margin-left: 5%;
+}    
+        
+.textfield {
+    display: flex;
+    width: 50%;
+}
